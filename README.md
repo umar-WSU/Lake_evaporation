@@ -1,4 +1,4 @@
-# Lake_evaporation
+# lake_evaporation
 We calculated evaporation (E) from global lakes using the Penman method (PM) and the Lake, Ice, Snow, and Sediment Simulator (LISSS) within the Community Land Model (CLM) from 2001 to 2016. The detailed discriptions of the LISSS are given CLM4.5 technical note, which can be found here https://www.cesm.ucar.edu/models/cesm1.2/clm/CLM45_Tech_Note.pdf
 The PM E aided with the equilibrium temperature approach is calculated at a monthly timescale. The LISSS simulates surface energy budget components at 30-min resolution, which are then aggregated to monthly product for comparison purpose. In addition to using the equilibrium temperature approach, the PM E is also determined by adopting Rn and G from the LISSS outputs, referred to as PM-LISSS E. The mean seasonal (summer and autumn) data of E, Rn, and G is provided here. Note that the seasons are synchronized for both Hemispheres. The summer is defined as June-August in the Northern Hemisphere and December-February in the Southern Hemisphere.
 The data file can be viewed using Panoply, which can be downloaded from https://www.giss.nasa.gov/tools/panoply/
